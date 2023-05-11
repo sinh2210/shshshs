@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+.TQ{
+    width: 100%;
+    height: 2185px;
+}
+
+.container{
+    width: 1067px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.phandau1{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+}
+.phandau1 .logo{
+    height: 120px;
+    width: 10%;
+}
+
+.phandau1 .phandau1-1{ 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+.phandau1 .phandau1-1 ul{
+    list-style: none;
+    
+}
+.phandau1 .phandau1-1 ul li{
+    line-height: 60px;
+    float: left;
+    padding-right: 20px;
+}
+.phandau1 .phandau1-1 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.phandau1 .phandau1-1 .tren input{
+  float: right;
+  margin-top: 15px;
+  padding: 7px 0;
+  padding-left: 5px;
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+.phandau1 .phandau1-1 .duoi .media{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.media button{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.432); 
+    border: 1px solid rgba(255, 255, 255, 0); 
+    margin-top: 10px;
+    border-radius:15%;
+    
+}
+.media button i{
+    opacity: 0.3;
+}
+.phandau1 .phandau1-1 .duoi{
+    background-color: #f69631;
+    font-size: 12px;
+}
+.phandau1 .phandau1-1 .duoi .menu a{
+    color: white ;
+
+}
+.phandau1 .phandau1-1 .duoi,.tren .menu{
+    padding-left: 25px;
+}
+.phandau2{
+    margin:-20px 0 20px 0;
+}
+.phandau2 img{
+    width: 100%;
+}
+.phandau3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.phandau3 .cot1{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    margin-right: 3px;
+}
+.phandau3 .cot2{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.phandau3 .hang2{
+    display: flex;
+    flex-direction: row;
+}
+.phandau3 .cot1 .imgcot1{
+    width: 532px;
+}
+a{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+.info-container{
+    position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+}
+.info-container .info{
+    font-size: 22px;
+    width: 80%;
+    margin:  0 0 20px 20px;
+}
+.info-container .info1{
+    font-size: 14px;
+    width: 80%;
+    margin:  0 0 10px 20px;
+}
+.info-container .month{
+    width: 80%;
+    margin:  0 0 10px 20px;
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 10px;
+}
+.cot2{
+    width: 50%;
+}
+.cot2 .o1{
+    position: relative;
+    overflow: hidden;
+}
+.cot2 .o1 .o1a1{
+    width: 100%;
+    height: 261px;
+    overflow: hidden;
+    position: relative;
+}
+.cot2 .o1 .o1a2{
+    width: 100%;
+    height: 198px;
+    overflow: hidden;
+    position: relative;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+.container1 .p1{
+    font-size: 22px;
+    padding-bottom: 5px;
+    color: #f9a433;
+}
+.gachchan{
+    background-color: #f9a433;
+    height: 2px;
+    width: 40px;
+}
+.gachchan2{
+    background-color: rgba(173, 173, 173, 0.158);
+    height: 2px;
+    width: 357px;
+    margin-top: -2px;
+}
+.gachchan1{
+    background-color: rgba(173, 173, 173, 0.158);
+    height: 2px;
+    width: 100px;
+    margin-top: -2px;
+}
+.container1 .col .baiviet{
+    margin-top: 20px;
+    width: 670px;
+    line-height: 1.3;
+}
+.container1 .col .baiviet .baiviet1{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.baiviet1-img{
+    float: left;
+}
+.baiviet1-img img{
+    width: 223px;
+    height: 150px;
+}
+.container1 .col .baiviet .baiviet1 aside{
+    margin-left: 245px;
+    margin-top: 5px;
+}
+.container1 .col .baiviet .baiviet1 aside header p{
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+}
+.container1 .col .baiviet .baiviet1 aside header span{
+    color: #25252594;
+    font-size: 11px;
+    font-weight: normal;
+}
+.container1 .col .baiviet .baiviet1 aside header div{
+   margin: 7px 0;
+}
+.container1 .col .baiviet .baiviet1 aside div{
+    color: #25252594;
+    font-size: 14px;
+}
+
+.col-in{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.col-in .art{
+    line-height: 1.3;
+    font-size: 15px;
+}
+.col-in .art .art1{
+    padding-bottom: 15px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.048);
+    margin-bottom: 15px;
+}
+.col-in .art .art1:last-child{
+    border-bottom: none;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.col-img{
+
+    margin-left: 5px;
+}
+.col-img img{
+    width: 340px;
+    height: 371px;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+.button button{
+    padding: 5px 5px;
+    width: 120px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.582);
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+
+.container1{
+    width: 1067px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    width: 100%;
+}
+.footer1{
+    width: 70%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+.footer1 .col1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.footer1 .col1 div{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.863);
+    margin: 60px 0 30px 0;
+}
+.footer1 .col1 p{
+    color: rgba(255, 255, 255, 0.76);
+    line-height: 1.5;
+    font-size: 13px;
+}
+.footer1 .col2 .td{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.863);
+    margin: 60px 0 30px 0;
+}
+.footer1 .col2 .icon{
+    display: flex;
+    flex-direction: row;
+}
+.footer1 .col2 .icon .icon1{
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+}
+.icon1 button{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.11); 
+    border: 1px solid rgba(247, 247, 247, 0.021);
+}
+.icon1 button i{
+    color: white;
+}
+
+.end{
+    width: 100%;
+}
+.end1{
+    font-size: 11px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.end1 div{
+    color: rgba(255, 255, 255, 0.849);
+    line-height: 40px;
+}
+.media{
+    display: inline-block;
+}
+.media1{
+    width: 100%;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.media1 a{
+    margin: 5px 10px 5px 0;
+}
+.fa-chevron-down1::after{
+    content: "\f078"; 
+    padding-left: 5px;
+    line-height: 34px;
+}
+
